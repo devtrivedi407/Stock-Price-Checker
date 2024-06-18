@@ -26,6 +26,7 @@ Welcome to **Stock Price Checker**! This project provides a comprehensive and us
 - **CSS3**: For styling and layout.
 - **JavaScript**: For fetching and displaying data dynamically.
 - **Alpha Vantage API**: For retrieving real-time stock market data.
+- **News API**: For retrieving real-time news.
 - **Chart.js**: For rendering interactive charts.
 
 ## Pages
