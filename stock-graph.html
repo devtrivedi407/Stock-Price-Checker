@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Checker - Graphs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stock-graph.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo"><a href="index.html"><img class="logo"
+                        src="Images/Logo-image/Stock Price Checker_transparent.png" alt="Stock Price Checker Logo"></a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="IPO.html">IPO</a></li>
+                <li><a href="stock-graph.html">GRAPHS</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">MARKET</a>
+                    <div class="dropdown-content">
+                        <a href="cryptocurrency.html">CRYPTOCURRENCY</a>
+                        <a href="top-stocks.html">STOCK PERFORMANCE OVERVIEW</a>
+                        <a href="forex_calculator.html">FOREX CALCULATOR</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-search">
+                <input type="text" id="searchInput" placeholder="Enter News Search">
+                <button type="button" onclick="searchNavbar()">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div class="background-image">
+        <img src="Images/Background-Image/m-ZzOa5G8hSPI-unsplash.jpg" alt="stock-graph">
+    </div>
+    <main>
+        <h1>Stock Graph</h1>
+        <div class="search-container">
+            <input type="text" id="stockSymbol" placeholder="Enter Stock Symbol">
+            <button id="fetchButton">Search</button>
+            <div class="chart-buttons">
+                <button id="priceChartButton">Price Chart</button>
+                <button id="volumeChartButton">Volume Chart</button>
+                <button id="movingAvgChartButton">Moving Averages</button>
+                <button id="earningsChartButton">Earnings Chart</button>
+                <button id="historicalPerformanceButton">Historical Performance</button>
+            </div>
+            <canvas id="stockChart"></canvas>
+        </div>
+
+    </main>
+    <script src="stock-graph.js"></script>
+</body>
+
+</html>

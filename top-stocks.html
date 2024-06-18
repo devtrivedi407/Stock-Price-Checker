@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Performance Overview - Stock Price Checker</title>
+    <link rel="stylesheet" href="top-stocks.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img class="logo" src="Images/Logo-image/Stock Price Checker_transparent.png" alt="Stock Price Checker Logo">
+                </a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="IPO.html">IPO</a></li>
+                <li><a href="stock-graph.html">Graphs</a></li>
+                <li><a href="news.html">News</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">Market</a>
+                    <div class="dropdown-content">
+                        <a href="cryptocurrency.html">Cryptocurrency</a>
+                        <a href="top-stocks.html">Stock Performance Overview</a>
+                        <a href="forex_calculator.html">Forex Calculator</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-search">
+                <input type="text" id="searchInput" placeholder="Enter News Search">
+                <button type="button" onclick="searchNavbar()">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div class="background-image"></div>
+    <div class="container">
+        <h1>Stocks Dashboard</h1>
+        <div class="table-container">
+            <h2>Top Gainers</h2>
+            <table id="top-gainers">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="table-container">
+            <h2>Top Losers</h2>
+            <table id="top-losers">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="table-container">
+            <h2>52 Week High</h2>
+            <table id="week-high-52">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                        <th>52 Week High</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="table-container">
+            <h2>52 Week Low</h2>
+            <table id="week-low-52">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                        <th>52 Week Low</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="table-container">
+            <h2>Only Buyers</h2>
+            <table id="only-buyers">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="table-container">
+            <h2>Only Sellers</h2>
+            <table id="only-sellers">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="top-stocks.js"></script>
+</body>
+</html>

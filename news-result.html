@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Search Results</title>
+    <link rel="stylesheet" href="news-result.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo"><a href="index.html"><img class="logo"
+                        src="Images/Logo-image/Stock Price Checker_transparent.png" alt="Stock Price Checker Logo"></a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="IPO.html">IPO</a></li>
+                <li><a href="stock-graph.html">GRAPHS</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">MARKET</a>
+                    <div class="dropdown-content">
+                        <a href="cryptocurrency.html">CRYPTOCURRENCY</a>
+                        <a href="top-stocks.html">STOCK PERFORMANCE OVERVIEW</a>
+                        <a href="forex_calculator.html">FOREX CALCULATOR</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-search">
+                <input type="text" id="searchInput" placeholder="Enter News Search">
+                <button type="button" onclick="searchNavbar()">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="news-results-section">
+            <h1>Search Results for: <span id="search-query"></span></h1>
+            <div id="news-results"></div>
+            <button id="load-more-button">Load More</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+
+    <script src="news-result.js"></script>
+</body>
+</html>
