@@ -27,6 +27,7 @@ Welcome to **Stock Price Checker**! This project provides a comprehensive and us
 - **JavaScript**: For fetching and displaying data dynamically.
 - **Alpha Vantage API**: For retrieving real-time stock market data.
 - **News API**: For retrieving real-time news.
+- **Open Exchange API**: For retrieving real-time FOREX data.
 - **Chart.js**: For rendering interactive charts.
 
 ## Pages
