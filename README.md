@@ -48,3 +48,38 @@ Welcome to **Stock Price Checker**! This project provides a comprehensive and us
    - 52-Week Highs
    - 52-Week Lows
 7. **Forex Calculator**: Real-time currency conversion tool.
+
+8. ## Screenshots
+
+### Home Page
+This is the main page where users can get an overview of stock prices, top gainers, and market news.
+![Home Page Screenshot](assets/screenshots/HomePage.png)
+
+### Stock Price Graphs
+View detailed graphs for stock prices, volume, moving averages, earnings, and more.
+- **Price Chart**:
+  ![Price Chart Screenshot](assets/screenshots/Graph-priceChart.png)
+- **Volume Chart**:
+  ![Volume Chart Screenshot](assets/screenshots/Graph-volumeChart.png)
+- **Earnings Chart**:
+  ![Earnings Chart Screenshot](assets/screenshots/Graph-earningsChart.png)
+- **Historical Performance Chart**:
+  ![Historical Performance Chart Screenshot](assets/screenshots/Graph-historicalPerformanceChart.png)
+- **Moving Averages Chart**:
+  ![Moving Averages Chart Screenshot](assets/screenshots/Graph-movingAveragesChart.png)
+
+### Forex Calculator
+A real-time currency conversion tool for calculating forex exchange rates.
+![Forex Calculator Screenshot](assets/screenshots/ForexCalculator.png)
+
+### Cryptocurrency Data
+View insights and data for various cryptocurrencies.
+![Cryptocurrency Screenshot](assets/screenshots/Crytocurrency.png)
+
+### IPOs
+Get information on upcoming and recent IPOs.
+![IPO Screenshot](assets/screenshots/IPO.png)
+
+### Latest News
+Stay up-to-date with the latest stock market news.
+![News Screenshot](assets/screenshots/News.png)
